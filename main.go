@@ -50,9 +50,28 @@ func main() {
 			To: groupID,
 			Messages: []messaging_api.MessageInterface{
 				&messaging_api.TextMessage{
-					Text: text,
+					Message: messaging_api.Message{
+						Type: "text",
+						QuickReply: messaging_api.QuickReply{
+							Items: []messaging_api.QuickReplyItem{{
+								ImageUrl: "",
+								Type:     "",
+							}},
+						},
+						Sender: messaging_api.Sender{
+							Name:    "",
+							IconUrl: "",
+						},
+					},
+					Text:       text,
+					QuickReply: nil,
+					Sender:     nil,
+					Emojis:     nil,
+					QuoteToken: "",
 				},
 			},
+			NotificationDisabled:   false,
+			CustomAggregationUnits: nil,
 		}
 		if _, err := bot.PushMessage(&req, ""); err != nil {
 			log.Println("push error:", err)
