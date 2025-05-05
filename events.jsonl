@@ -1,0 +1,21 @@
+{
+  "type": "message",
+  "source": {
+    "type": "group",
+    "groupId": "",
+    "userId": ""
+  },
+  "timestamp": 1746356015448,
+  "mode": "active",
+  "webhookEventId": "",
+  "deliveryContext": {
+    "isRedelivery": false
+  },
+  "replyToken": "",
+  "message": {
+    "type": "",
+    "id": "",
+    "text": "",
+    "quoteToken": ""
+  }
+}
