@@ -1,0 +1,24 @@
+{
+  "type": "message",
+  "source": {
+    "type": "group",
+    "groupId": "C08869ef55c499f7da1244aeb4d8d6847",
+    "userId": "Ue36124dbcdb0490799e5a7f14c27bcb1"
+  },
+  "timestamp": 1748412539076,
+  "mode": "active",
+  "webhookEventId": "01JWAR48A52MGH7GCF5E0BZ3V7",
+  "deliveryContext": {
+    "isRedelivery": false
+  },
+  "replyToken": "3ce628371d6840fca3dcc7768f1de08f",
+  "message": {
+    "type": "text",
+    "id": "563011886413775021",
+    "text": "テスト",
+    "quoteToken": "JrC2QkkSmE1iNAly43Grr10y9rFnndLoWUz2ptHyo8yNvRhfJfWUzitb2HNzmXA0inONSIl2OqDtstzjOHq3IHVmbNoUgXM4rjWeJPyvwx-4uRwyXKDlO_6s5rY5PHeVfNEFKLXarb0b-sWmbpQGkw"
+  }
+},
+{"type": "message", "source": {"type":"group", "groupId": "C08869ef55c499f7da1244aeb4d8d6847", "userId": "Ue36124dbcdb0490799e5a7f14c27bcb1"}, "timestamp": 1748413055152, "mode": "active", "webhookEventId": "01JWARM0GR1GKVWGPJCP30BY1J", "deliveryContext": {"isRedelivery": false}, "replyToken": "e904940f82874f6894731649d43be7b1", "message": {"type":"text", "id": "563012752453403067", "text": "テスト","quoteToken": "zEk1zYRlmn0DDcUyOl3S_FwNY0uCkLLk7dbw-NHP37PNOYCtRSytf4XhILzhQ9ZwxBLoqivKtFdvwbrA7Bhs6AR9ALQzY2vioLBkHyhAZfeWWrUgieyPqnAecfz-IBVFcGDNPkr8qLR29nuhYrnmIA"
+}
+}

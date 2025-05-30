@@ -81,7 +81,7 @@ func main() {
 		fmt.Fprintf(w, "pushed: %s\n", text)
 	})
 
-	file, errOpen := os.OpenFile("events.jsonl", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0o644)
+	file, errOpen := os.OpenFile("events.json", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0o644)
 	if errOpen != nil {
 		log.Fatalf("open file error: %v", errOpen)
 	}
